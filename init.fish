@@ -4,6 +4,9 @@ set -gx PYTHONDONTWRITEBYTECODE 1
 # Disable default virtualenv prompt
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
+# Load pyenv
+status --is-interactive; and source (pyenv init -|psub)
+status --is-interactive; and source (pyenv virtualenv-init -|psub)
 
 set -gx VISUAL vim
 set -gx EDITOR $VISUAL
