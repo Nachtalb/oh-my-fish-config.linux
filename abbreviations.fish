@@ -25,7 +25,7 @@ abbr rmf 'rm -rf'
 abbr rtws 'sed -i \'s/[[:space:]]*\$//\''
 
 # Aptitude
-abbr aup 'sudo apt update && sudo apt list --upgradable -a && sudo apt dist-upgrade && sudo apt autoclean && sudo apt autoremove'
+abbr aup 'sudo apt update; sudo apt list --upgradable -a; sudo apt dist-upgrade; sudo apt autoclean; sudo apt autoremove'
 abbr update 'sudo apt update'
 abbr upgrade 'sudo apt upgrade'
 
