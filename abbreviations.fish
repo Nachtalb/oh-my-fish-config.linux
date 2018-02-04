@@ -42,6 +42,9 @@ abbr gc 'git commit -S -m'
 # push
 abbr gpf 'git push --force'
 abbr gp 'git push'
+# pull
+abbr gpl 'git pull'
+abbr gplf 'git reset --hard'
 # stashing
 abbr gsa 'git stash save'
 abbr gsp 'git stash drop    '
