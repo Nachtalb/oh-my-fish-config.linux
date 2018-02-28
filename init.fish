@@ -5,8 +5,10 @@ set -gx PYTHONDONTWRITEBYTECODE 1
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
 
 # Load pyenv
-status --is-interactive; and source (pyenv init -|psub)
-status --is-interactive; and source (pyenv virtualenv-init -|psub)
+if type -q pyenv
+    status --is-interactive; and source (pyenv init -|psub)
+    status --is-interactive; and source (pyenv virtualenv-init -|psub)
+end
 
 set -gx VISUAL vim
 set -gx EDITOR $VISUAL
