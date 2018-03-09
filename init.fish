@@ -3,6 +3,7 @@
 # Python Stuff
 set -gx PYTHONDONTWRITEBYTECODE 1
 set -x VIRTUAL_ENV_DISABLE_PROMPT 1
+set -gx PYTHONSTARTUP $HOME/.pythonrc
 
 # Load pyenv
 if type -q pyenv
