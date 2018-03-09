@@ -4,12 +4,12 @@
 #    Abbreviations Config     #
 # # # # # # # # # # # # # # # #
 
+# xdg-open as an alternative to the open command on mac
 abbr open 'xdg-open'
 
-# Buildout
+# Plone Shortcuts
 abbr pin 'bin/instance'
 abbr pbo 'bin/buildout'
-# Instance
 abbr pinf 'bin/instance fg'
 
 # Oh my fish
@@ -22,7 +22,7 @@ abbr ls 'ls -GhX --color'
 abbr ll 'ls -lX --color'
 abbr grep 'grep --color'
 abbr rmf 'rm -rf'
-abbr rtws 'sed -i \'s/[[:space:]]*\$//\''
+abbr rtws 'sed -i \'s/[[:space:]]*\$//\''  # Remove trailing white space
 
 # Aptitude
 abbr aup 'sudo apt update; sudo apt list --upgradable -a; sudo apt dist-upgrade; sudo apt autoclean; sudo apt autoremove'
@@ -49,14 +49,14 @@ abbr gplf 'git reset --hard'
 abbr gsa 'git stash save'
 abbr gsp 'git stash pop'
 abbr gsd 'git stash drop'
-# misc
+# log
 abbr glog 'git log --graph'
 abbr gl1 "git log --graph --abbrev-commit --decorate --format='%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 abbr gl2 "git log --graph --abbrev-commit --decorate --format='%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all"
+# misc
 abbr gcp 'git cherry-pick -S '
 abbr gco 'git checkout'
 abbr gst 'git status'
-abbr gpu 'git pull'
 
 # Misc
 abbr fsize 'du -sh' # Show dictionary size
