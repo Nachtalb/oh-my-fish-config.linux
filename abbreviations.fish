@@ -11,6 +11,9 @@ abbr open 'xdg-open'
 abbr pin 'bin/instance'
 abbr pbo 'bin/buildout'
 abbr pinf 'bin/instance fg'
+abbr psi 'bin/solr-instance'
+abbr pt 'bin/test'
+abbr plone-setup 'pyenv local plone-env; printf "[buildout]\nextends =\n    development.cfg\n\n[omelette]\nrecipe =\n\n" > development_nick.cfg; ln -fs development_nick.cfg buildout.cfg; python bootstrap.py; bin/buildout;'
 
 # Oh my fish
 abbr omr 'omf reload'
@@ -26,8 +29,9 @@ abbr rtws 'sed -i \'s/[[:space:]]*\$//\''  # Remove trailing white space
 
 # Aptitude
 abbr aup 'sudo apt update; sudo apt list --upgradable -a; sudo apt dist-upgrade; sudo apt autoclean; sudo apt autoremove'
-abbr update 'sudo apt update'
-abbr upgrade 'sudo apt upgrade'
+abbr apdate 'sudo apt update'
+abbr apgrade 'sudo apt upgrade'
+abbr anstall 'sudo apt install'
 
 # GIT
 # rebase
@@ -43,12 +47,16 @@ abbr gc 'git commit -S -m'
 abbr gpf 'git push --force'
 abbr gp 'git push'
 # pull
+abbr gfa 'git fetch --all'
 abbr gpl 'git pull'
 abbr gplf 'git reset --hard'
 # stashing
 abbr gsa 'git stash save'
 abbr gsp 'git stash pop'
 abbr gsd 'git stash drop'
+# diff 
+abbr gdf 'git diff'
+abbr gds 'git diff --staged'
 # log
 abbr glog 'git log --graph'
 abbr gl1 "git log --graph --abbrev-commit --decorate --format='%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
