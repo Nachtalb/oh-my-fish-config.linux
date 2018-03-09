@@ -25,4 +25,3 @@ if test -d /opt/etcher-cli
 end
 
 source ~/.config/omf/abbreviations.fish
-source ~/.config/omf/hooks.fish
