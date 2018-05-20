@@ -68,3 +68,4 @@ abbr gst 'git status'
 
 # Misc
 abbr fsize 'du -sh' # Show dictionary size
+abbr md 'mkdir'
