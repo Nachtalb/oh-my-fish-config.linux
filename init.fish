@@ -25,3 +25,8 @@ if test -d /opt/etcher-cli
 end
 
 source ~/.config/omf/abbreviations.fish
+
+# Load file that is not tracked by this repo, for machine specific stuff
+if test -e ~/.config/omf/user.fish 
+    source ~/.config/omf/user.fish
+end
