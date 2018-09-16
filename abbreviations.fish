@@ -23,7 +23,6 @@ abbr la 'ls -lAhX --color'
 abbr lt 'ls -lAht --color'
 abbr ls 'ls -GhX --color'
 abbr ll 'ls -lX --color'
-abbr grep 'grep --color'
 abbr rmf 'rm -rf'
 abbr rtws 'sed -i \'s/[[:space:]]*\$//\''  # Remove trailing white space
 
