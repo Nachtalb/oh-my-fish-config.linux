@@ -30,3 +30,8 @@ source ~/.config/omf/abbreviations.fish
 if test -e ~/.config/omf/user.fish 
     source ~/.config/omf/user.fish
 end
+
+# Load https://github.com/wting/autojump 
+if test -f /home/bernd/.autojump/share/autojump/autojump.fish
+    source /home/bernd/.autojump/share/autojump/autojump.fish
+end
