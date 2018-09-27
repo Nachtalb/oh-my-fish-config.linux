@@ -31,6 +31,7 @@ abbr aup 'sudo apt update; sudo apt list --upgradable -a; sudo apt dist-upgrade;
 abbr apdate 'sudo apt update'
 abbr apgrade 'sudo apt upgrade'
 abbr anstall 'sudo apt install'
+abbr add-key 'sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys '
 
 # GIT
 # rebase
