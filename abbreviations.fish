@@ -13,7 +13,7 @@ abbr pbo 'bin/buildout'
 abbr pinf 'bin/instance fg'
 abbr psi 'bin/solr-instance'
 abbr pt 'bin/test'
-abbr plone-setup 'pyenv local plone-env; printf "[buildout]\nextends =\n    development.cfg\n\n[omelette]\nrecipe =\n\n" > development_nick.cfg; ln -fs development_nick.cfg buildout.cfg; python bootstrap.py; bin/buildout;'
+abbr plone-setup 'pyenv local plone-env;and printf "[buildout]\nextends =\n    development.cfg\n\n[omelette]\nrecipe =\n\n" > development_nick.cfg;and ln -fs development_nick.cfg buildout.cfg;and python bootstrap.py;and bin/buildout'
 
 # Oh my fish
 abbr omr 'omf reload'
@@ -27,7 +27,7 @@ abbr rmf 'rm -rf'
 abbr rtws 'sed -i \'s/[[:space:]]*\$//\''  # Remove trailing white space
 
 # Aptitude
-abbr aup 'sudo apt update; sudo apt list --upgradable -a; sudo apt dist-upgrade; sudo apt autoclean; sudo apt autoremove'
+abbr aup 'sudo apt update;and sudo apt list --upgradable -a;and sudo apt dist-upgrade;and sudo apt autoclean;and sudo apt autoremove'
 abbr apdate 'sudo apt update'
 abbr apgrade 'sudo apt upgrade'
 abbr anstall 'sudo apt install'
