@@ -48,7 +48,7 @@ abbr gpf 'git push --force'
 abbr gp 'git push'
 # pull
 abbr gfa 'git fetch --all'
-abbr gpl 'git pull'
+abbr gpl 'git pull -r'
 abbr gplf 'git reset --hard'
 # stashing
 abbr gsa 'git stash save'
