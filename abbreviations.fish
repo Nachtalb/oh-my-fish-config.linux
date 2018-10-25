@@ -7,13 +7,18 @@
 # xdg-open as an alternative to the open command on mac
 abbr open 'xdg-open'
 
-# Plone Shortcuts
+# Buildout
 abbr pin 'bin/instance'
 abbr pbo 'bin/buildout'
+abbr psp 'pyenv local plone-env;and printf "[buildout]\nextends =\n    development.cfg\n\n[omelette]\nrecipe =\n\n" > development_nick.cfg;and ln -fs development_nick.cfg buildout.cfg;and python bootstrap.py;and bin/buildout'
+abbr prs 'python bootstrap.py;and bin/buildout'
+# Instance
 abbr pinf 'bin/instance fg'
+# Misc
 abbr psi 'bin/solr-instance'
 abbr pt 'bin/test'
-abbr plone-setup 'pyenv local plone-env;and printf "[buildout]\nextends =\n    development.cfg\n\n[omelette]\nrecipe =\n\n" > development_nick.cfg;and ln -fs development_nick.cfg buildout.cfg;and python bootstrap.py;and bin/buildout'
+abbr psf 'bin/solr-instance start; bin/tika-server start 2> /dev/null &; bin/instance fg'
+abbr psm 'bin/solr-instance start; bin/tika-server start 2> /dev/null &'
 
 # Oh my fish
 abbr omr 'omf reload'
@@ -54,7 +59,7 @@ abbr gplf 'git reset --hard'
 abbr gsa 'git stash save'
 abbr gsp 'git stash pop'
 abbr gsd 'git stash drop'
-# diff 
+# diff
 abbr gdf 'git diff'
 abbr gds 'git diff --staged'
 # log
