@@ -40,3 +40,7 @@ if test -f /home/bernd/.autojump/share/autojump/autojump.fish
 end
 
 set -gx PATH $HOME/bin $PATH
+
+for file in scripts/*.fish
+    source $file
+end
