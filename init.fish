@@ -28,6 +28,7 @@ end
 set -gx XDG_DATA_DIRS /var/lib/snapd/desktop $XDG_DATA_DIRS
 
 source ~/.config/omf/abbreviations.fish
+source ~/.config/omf/alias.fish
 
 # Load file that is not tracked by this repo, for machine specific stuff
 if test -e ~/.config/omf/user.fish
