@@ -15,5 +15,4 @@ package pyenv
 package python
 package spark
 package sublime
-package weather
 theme scorphish
