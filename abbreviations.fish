@@ -60,8 +60,8 @@ abbr gsa 'git stash save'
 abbr gsp 'git stash pop'
 abbr gsd 'git stash drop'
 # diff
-abbr gdf 'git diff'
-abbr gds 'git diff --staged'
+abbr gdf 'git --no-pager diff'
+abbr gds 'git --no-pager diff --staged'
 # log
 abbr glog 'git log --graph'
 abbr gl1 "git log --graph --abbrev-commit --decorate --format='%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
