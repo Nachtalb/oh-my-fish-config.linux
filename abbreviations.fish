@@ -70,6 +70,7 @@ abbr gl2 "git log --graph --abbrev-commit --decorate --format='%C(bold blue)%h%C
 abbr gcp 'git cherry-pick -S '
 abbr gco 'git checkout'
 abbr gst 'git status'
+abbr gre 'git remote -v'
 
 # Misc
 abbr fsize 'du -sh' # Show dictionary size
